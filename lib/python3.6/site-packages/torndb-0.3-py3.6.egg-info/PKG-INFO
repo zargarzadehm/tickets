@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: torndb
+Version: 0.3
+Summary: A lightweight wrapper around MySQLdb.  Originally part of the Tornado framework.
+Home-page: https://github.com/bdarnell/torndb
+Author: Facebook
+Author-email: python-tornado@googlegroups.com
+License: http://www.apache.org/licenses/LICENSE-2.0
+Description: UNKNOWN
+Platform: UNKNOWN
