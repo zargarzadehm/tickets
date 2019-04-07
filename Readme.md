@@ -112,7 +112,7 @@ In our Project We Support POST & GET Method for special Requesting
 
 ### You Can See Example Below : 
 
-![Sample Video](http://neolyze.com/wp-content/uploads/2019/ticket-project-client.MOV)
+![Sample Video](http://neolyze.com/wp-content/uploads/2019/ticket-project-Server.mov)
 
 ## OUR CLIENT CODE:
 
@@ -122,10 +122,7 @@ Just Go To Client Folders and Run Below Code :
 $ python3 client.py
 ```
 
-<video width="320" height="240" controls>
-  <source src="http://neolyze.com/wp-content/uploads/2019/ticket-project-client.MOV" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+![Sample Video](http://neolyze.com/wp-content/uploads/2019/ticket-project-client.MOV)
 
 # **Support**
 
