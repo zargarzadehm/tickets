@@ -112,10 +112,7 @@ In our Project We Support POST & GET Method for special Requesting
 
 ### You Can See Example Below : 
 
-<video width="320" height="240" controls>
-  <source src="http://neolyze.com/wp-content/uploads/2019/ticket-project-client.MOV" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+![Sample Video](http://neolyze.com/wp-content/uploads/2019/ticket-project-client.MOV)
 
 ## OUR CLIENT CODE:
 
