@@ -220,7 +220,7 @@ while True:
                       'first_name': FIRST_NAME, 'last_name': LAST_NAME}
             r = requests.post(__postcr__(), PARAMS).json()
             if str(r['status']) == "200":
-                print("Your Acount Is Created\n"+"Your Username :"+USERNAME+"\nYour API : "+str(r['api']))
+                print("Your Acount Is Created\n"+"Your Username :"+USERNAME)
                 time.sleep(2)
                 break
             else:

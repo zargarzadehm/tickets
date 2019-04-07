@@ -104,7 +104,6 @@ class signup(BaseHandler):
             user_id = mycursor.lastrowid
 
             output = {"message": "Signed Up Successfully",
-                      "api": api_token,
                       "status": '200'}
             self.write(output)
         else:
