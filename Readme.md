@@ -66,7 +66,9 @@ mysql> CREATE DATABASE tickets;
 Allow the "admin" user to connect with the password "12345689":
     
 ```shell
-mysql> GRANT ALL PRIVILEGES ON bank.* TO 'tickets'@'localhost' IDENTIFIED BY 'admin';
+mysql> CREATE USER PRIVILEGES ticket.* 'admin'@'localhost' IDENTIFIED BY '12345689';
+mysql> GRANT ALL PRIVILEGES ON bank.* TO 'admin'@'%';
+mysql> FLUSH PRIVILEGES;
 ```
 
 ## Step2 : Create the tables in your new database
