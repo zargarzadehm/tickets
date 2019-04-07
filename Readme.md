@@ -66,8 +66,8 @@ mysql> CREATE DATABASE tickets;
 Allow the "admin" user to connect with the password "12345689":
     
 ```shell
-mysql> CREATE USER PRIVILEGES ticket.* 'admin'@'localhost' IDENTIFIED BY '12345689';
-mysql> GRANT ALL PRIVILEGES ON bank.* TO 'admin'@'%';
+mysql> CREATE USER PRIVILEGES tickets.* 'admin'@'localhost' IDENTIFIED BY '12345689';
+mysql> GRANT ALL PRIVILEGES ON tickets.* TO 'admin'@'%';
 mysql> FLUSH PRIVILEGES;
 ```
 
