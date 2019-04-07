@@ -31,23 +31,20 @@ class Application(tornado.web.Application):
     def __init__(self):
         # GET METHOD :
         handlers = [
-            (r"/getticketmod/([^/]+)", getticketmod), #Balance Using API Format : /getticketmod/API
-            (r"/getticketcli/([^/]+)", getticketcli),  # Balance Using API Format : /getticketcli/API
+            (r"/getticketmod/([^/]+)", getticketmod),
+            (r"/getticketcli/([^/]+)", getticketcli),
             (r"/login/([^/]+)/([^/]+)", login),
             (r"/logout/([^/]+)/([^/]+)", logout),
             # POST METHOD :
             (r"/signup", signup),
             (r"/sendticket", sendticket),
             (r"/restoticketmod", restoticketmod),
-            (r"/changestatus", changestatus),  # Balance Using API Format : /changestatus/token/id/status
-            (r"/closeticket", closeticket),# Balance Using Authentication Format : /closeticket/token/id
+            (r"/changestatus", changestatus),
+            (r"/closeticket", closeticket),
             (r".*", defaulthandler),
         ]
         settings = dict()
         super(Application, self).__init__(handlers, **settings)
-        # self.db = torndb.Connection(
-        #     host=options.mysql_host, database=options.mysql_database,
-        #     user=options.mysql_user, password=options.mysql_password)
 
 
 class BaseHandler(tornado.web.RequestHandler):

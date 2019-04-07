@@ -4,6 +4,7 @@ import time
 import platform
 import sys
 import json
+
 PARAMS = CMD = USERNAME = PASSWORD = API = ROLE = ""
 HOST = "127.0.0.1"
 PORT = "1104"
