@@ -1,4 +1,3 @@
-
 # **Ticket Project** [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://gitlab.com/zargarzadehm/tickets)
 
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django.svg)
@@ -6,7 +5,7 @@
 ![PyPI - Status](https://img.shields.io/pypi/status/Django.svg)
 ![Read the Docs](https://img.shields.io/readthedocs/pip.svg)
 
-This is Bank Management system using Tornado Web server.
+This is Ticket Management system using Tornado Web server.
 
 stable release version: ![version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
 
@@ -57,7 +56,7 @@ Connect to MySQL as a user that can create databases and users:
 $ mysql -u root
 ```
     
-Create a database named "bank":
+Create a database named "tickets":
     
 ```shell
 mysql> CREATE DATABASE tickets;
@@ -73,14 +72,14 @@ mysql> FLUSH PRIVILEGES;
 
 ## Step2 : Create the tables in your new database
 
-You can use the provided bankdb.sql file by running this command:
+You can use the provided ticketdb.sql file by running this command:
 
 ```shell
 $ mysql --user=admin --password=12345689 --database=tickets < ticketdb.sql
 ```
 
 You can run the above command again later if you want to delete the
-contents of the bank and start over after testing.
+contents of the tickets and start over after testing.
 
 Then now you Must Put Database information in code.py from line 13 - 16
 
