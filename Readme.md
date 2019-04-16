@@ -131,7 +131,7 @@ $ python3 client.py
 Reach out to me at one of the following places!
 
 - Telegram at <a href="https://t.me/zargarzadehmoein" target="_blank">@zargarzadehmoein</a>
-- Gmail at <a href="mailto:moein@neolyze.com" target="_blank">moein@neolyze.com</a>
+- Email at <a href="mailto:moein@neolyze.com" target="_blank">moein@neolyze.com</a>
 
 # **License**
 
