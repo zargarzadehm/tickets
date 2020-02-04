@@ -1,4 +1,4 @@
-# **Ticket Project** [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://gitlab.com/zargarzadehm/tickets)
+# **Ticket Project** [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/zargarzadehm/tickets)
 
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django.svg)
 ![Build](https://img.shields.io/bitbucket/pipelines/atlassian/adf-builder-javascript/task/SECO-2168.svg)
@@ -45,7 +45,7 @@ $ pip install -r requirements.txt
 First of All Clone the Project : 
 
 ```shell
-$ https://gitlab.com/zargarzadehm/tickets.git
+$ https://github.com/zargarzadehm/tickets.git
 ```
 
 ## Step1 : Connect to MySQL and create a database
@@ -130,12 +130,12 @@ $ python3 client.py
 Reach out to me at one of the following places!
 
 - Telegram at <a href="https://t.me/zargarzadehmoein" target="_blank">@zargarzadehmoein</a>
-- Email at <a href="mailto:moein@neolyze.com" target="_blank">moein@neolyze.com</a>
+- Email at <a href="mailto:moein.zargarzadeh@gmail.com" target="_blank">moein.zargarzadeh@gmail.com</a>
 
 # **License**
 
 [![License](https://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- Copyright 2018 © <a href="https://gitlab.com/zargarzadehm/tickets" target="_blank">ticket Project</a>.
+- Copyright 2018 © <a href="https://github.com/zargarzadehm/tickets" target="_blank">ticket Project</a>.
 
